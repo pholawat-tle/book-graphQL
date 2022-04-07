@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "isolatedModules": false,
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "es6",
+    "lib": [ "es2019", "DOM", "ES6" ,"DOM.Iterable", "ScriptHost" ],
+    "moduleResolution": "node",
+    "outDir": "build",
+    "allowJs": true,
+    "noEmitHelpers": true,
+    "importHelpers": true
+  },
+  "include": [
+    "src",
+    "__mocks__"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
